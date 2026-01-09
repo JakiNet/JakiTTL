@@ -10,8 +10,24 @@
 - Ligero y sin dependencias externas (usa librerías nativas).
 
 ## 🚀 Instalación y Uso
-```bash
+Copia y pega estos comandos en tu terminal. Asegúrate de estar en tu carpeta personal o cualquier carpeta donde tengas permisos de escritura (como /tmp o Desktop):
+```Bash
+
+# 1. Clonar el repositorio
 git clone https://github.com/JakiNet/JakiTTL.git
+
+# 2. Entrar a la carpeta
 cd JakiTTL
-chmod +x jakittl.py
-python3 jakittl.py <IP_OBJETIVO>
+
+# 3. Dar permisos al instalador y ejecutarlo
+chmod +x install.sh
+./install.sh
+```
+
+## Modo de uso
+
+Una vez instalado, no necesitas estar en la carpeta ni usar python3. Solo escribe:
+```Bash
+
+jakittl <dirección_ip>
+```
