@@ -11,7 +11,7 @@
 
 ## 🚀 Instalación y Uso
 ```bash
-git clone [https://github.com/TU_USUARIO/JakiTTL.git](https://github.com/TU_USUARIO/JakiTTL.git)
+git clone https://github.com/JakiNet/JakiTTL.git
 cd JakiTTL
 chmod +x jakittl.py
 python3 jakittl.py <IP_OBJETIVO>
