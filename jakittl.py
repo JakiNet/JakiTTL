@@ -24,8 +24,8 @@ def banner():
  | |__| | (_| |   <| |  | |     | |  | |____ 
   \____/ \__,_|_|\_\_|  |_|     |_|  |______| v1.0
     """)
-    print(f"{Colors.MAGENTA}   [+] Identificador de TTL para JakiKali")
-    print(f"   [+] Creado por: Jaki | Especial 100 Subs 🚀{Colors.RESET}\n")
+    print(f"{Colors.MAGENTA}   [+] Identificador de TTL by Jaki")
+    print(f"   [+] Creado por: Jaki {Colors.RESET}\n")
 
 def get_ttl(ip):
     try:
@@ -54,7 +54,7 @@ def identify_os(ttl):
 def main():
     banner()
     if len(sys.argv) != 2:
-        print(f"{Colors.YELLOW}Uso: python3 jakittl.py <dirección_ip>{Colors.RESET}")
+        print(f"{Colors.YELLOW}Uso: jakittl <dirección_ip>{Colors.RESET}")
         sys.exit(1)
 
     target = sys.argv[1]
